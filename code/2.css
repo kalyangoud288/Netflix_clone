@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	border: 0;
+	font-family: 'Poppins',sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000;
+}
+h2{
+	color: red;
+	font-size: 2rem;
+	border-color: black;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflixa.avif);
+	background-size: cover;
+}
+.btn{
+	
+	float: right;
+	border: 1px solid #fff;
+	display: flex;
+	background-color: transparent;
+	color: white;
+	padding: 10px 10px;
+	border-color: white;
+	justify-content: space-between;
+	margin: 10px;
+}
+.btn:hover{
+	
+	border-width: 4px;
+}
+.header-content{
+	display: inline-block;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 100px;
+}
+.email-setup{
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+
+}
+.email{
+	display: inline-block;
+	padding: 15px 140px;
+}
+.button{
+	display: inline-block;
+	padding: 15px 10px;
+	background-color: red;
+}
+.header-content.h3{
+	font-family: 'Poppins',sans-serif;
+}
+h1{
+	font-weight: 20px;
+	font-style: 'Poppins';
+
+}
+.rows{
+
+	color:#fff;
+}
+.features h2{
+	color: white;
+}
+.features{
+
+	font-size: 22px;
+	padding: 50px 12%;
+}
+.rows{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 50px 0%;
+}
+.text{
+	flex-basis: 50%;
+	margin-bottom: 20px;
+
+}
+.image{
+	flex-basis: 50%;
+	margin-bottom: 20px;
+}
+.image img:hover{
+	width: 500px;
+}
+.image img{
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+hr{
+	color: white;
+	border: 1px solid grey;
+	
+
+}
+.footer{
+	padding: 50px 12%;
+}
+h2{
+	color: #777;
+	font-size: 14px;
+}
+.footer .col{
+	flex-basis: 25%;
+	flex-grow: 1;
+	margin-bottom: 20px;
+	
+}
+.footer .col a{
+	display: block;
+	text-decoration: none;
+	color: #777;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.footer .rows{
+	align-items: flex-start;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .logo{
+    width: 100px;
+  }
+   .header button{
+  	padding: 5px 10px;
+  }
+
+  .email-setup  .btn {
+  	padding: 5px 10px;
+  }
+
+}
